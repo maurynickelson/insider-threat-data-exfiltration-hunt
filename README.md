@@ -65,6 +65,7 @@ DeviceProcessEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, FileName, ProcessCommandLine, InitiatingProcessFileName, InitiatingProcessCommandLine, AccountName
 ```
+![ZIP file creation evidence](images/Screenshot%202025-12-26%20131209.png)
 
 Findings:
 PowerShell activity was observed during this time window. The script bypassed execution policy restrictions, downloaded external content, silently installed 7-Zip, and invoked it to archive employee-related data.
