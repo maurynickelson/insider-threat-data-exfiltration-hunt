@@ -82,6 +82,8 @@ DeviceFileEvents
 | order by Timestamp desc
 | project Timestamp, DeviceName, FolderPath, FileName, InitiatingProcessCommandLine
 ```
+![Investigation screenshot showing network activity](images/Screenshot%202025-12-30%20160543.png)
+
 Finding:
 Multiple ZIP files containing employee-related data were created and staged locally, consistent with data preparation for potential exfiltration.
 ---
